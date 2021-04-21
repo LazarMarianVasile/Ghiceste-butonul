@@ -1,24 +1,22 @@
-function randomWinner0() {
-	let randomNumber = Math.floor(Math.random() * 3);
+let randomNumber = Math.floor(Math.random() * 3);
+function randomWinnerFirstButton() {
 	if (randomNumber == 0) {
-		document.getElementById("displayText").innerHTML = "You win!";
+		document.getElementById("firstButton").innerHTML = "You win!";
 	} else {
-		document.getElementById("displayText").innerHTML = "Try again!";
+		document.getElementById("firstButton").innerHTML = "Try again!";
 	}
 }
-function randomWinner1() {
-	let randomNumber = Math.floor(Math.random() * 3);
+function randomWinnerSecondButton() {
 	if (randomNumber == 1) {
-		document.getElementById("displayText").innerHTML = "You win!";
+		document.getElementById("secondButton").innerHTML = "You win!";
 	} else {
-		document.getElementById("displayText").innerHTML = "Try again!";
+		document.getElementById("secondButton").innerHTML = "Try again!";
 	}
 }
-function randomWinner2() {
-	let randomNumber = Math.floor(Math.random() * 3);
+function randomWinnerThirdButton() {
 	if (randomNumber == 2) {
-		document.getElementById("displayText").innerHTML = "You win!";
+		document.getElementById("thirdButton").innerHTML = "You win!";
 	} else {
-		document.getElementById("displayText").innerHTML = "Try again!";
+		document.getElementById("thirdButton").innerHTML = "Try again!";
 	}
 }
